@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  color: rgb(0, 0, 0);
+  background-image:url('../images/a.jpg');
+}
+
+form {
+  max-width: 400px;
+  margin: 35px auto;
+  border-radius: 10px;
+  padding: 10px 15px;
+  background-image:"none";
+}
+
+h1 {
+  margin: 0 0 30px 0;
+  text-align: center;
+  margin-top: 5px;
+}
+.congrats{
+
+  text-align: center;
+  padding: 10px;
+  background-color: rgb(168, 240, 177);
+  color: green;
+  margin-bottom: 10px;
+  display: none;
+}
+.alert {
+  text-align: center;
+  padding: 10px;
+  background: rgb(168, 240, 177);
+  color: green;
+  margin-bottom: 10px;
+  display: none;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='password'],
+textarea,
+select {
+  background: rgb(0, 0, 0);
+  border: 1px;
+  margin-bottom: 25px;
+  box-shadow: 2px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(142, 143, 223);
+  width: 100%;
+  padding: 15px;
+  margin: 0;
+  height: auto;
+  font-size: 15px;
+}
+
+select {
+  padding: 6px;
+  height: 32px;
+  border-radius: 2px;
+}
+
+fieldset {
+  margin-bottom: 30px;
+  border: none;
+}
+
+legend {
+  display: block;
+  margin-bottom: 8px;
+}
+
+label.light {
+  font-weight: 300;
+  display: inline;
+}
+
+.section {
+  background-color: rgb(68, 114, 221);
+  color: rgb(0, 0, 0);
+  height: 29px;
+  display: inline-block;
+  width: 29px;
+  border-radius: 100%;
+  text-align: center;
+  line-height: 30px;
+  margin-right: 4px;
+  font-size: 0.7em;
+}
+.upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.btn {
+  border: 2px solid rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+  background-color: rgb(142, 143, 223);
+  padding: 8px 20px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.upload-btn-wrapper input[type=file] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+button {
+  padding: 25px 40px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(36, 159, 235);
+  font-size: 15px;
+  margin: 30px 0px 0px;
+  width: 100%;
+  text-align: center;
+  border-radius: 5px;
+}
+
+@media screen and (min-width: 480px) {
+  form {
+    max-width: 480px;
+  }
+}
