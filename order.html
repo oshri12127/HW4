@@ -1,0 +1,41 @@
+<html>
+
+<head>
+    <title>order</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--===============================================================================================-->
+    <link rel="icon" type="image/png" href="images/icons/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="css/page3.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://www.gstatic.com/firebasejs/6.1.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.5.9/firebase.js"></script>
+
+</head>
+
+<body style="background-color:rgb(36, 98, 143);">
+        
+		<div class="container" ><img id="pic"  src="images/ANONYMOUS_USER.png" alt="IMG" style="width: 100px; height: 100px; "></div><br>
+		<a href="#" id="logout"  >logout</a>
+    <center><div id="demoFont"><h1>
+        
+        Select Vacation:</h1></center> </div>
+    
+	<center><div class="container" >
+		<h2>destination:<p id ="city"</p>
+		<p>start date:</p><input id="startDate" type="date"class="css-input">
+		<p>end date:</p><input id="endDate" type="date"class="css-input">
+		<p>stars:</p><input id="stars"class="css-input" ><br></h2>
+		<h3><input type="checkbox" id="myCheck"class="css-input">rent Car<br></h3>
+		<h3><p>list of orders:</p></h3>
+		<h4><ul id="dates" class="list-group"></h4>
+		</ul>
+        <a href="#" id="save">order</a><br><br>
+		<a href="#" id="changeLoc">change Location</a>
+	</div>
+ 
+ <script src="js/jquery-3.4.1.min.js"></script>
+ <script src="js/page3.js"></script>
+</body>
+
+</html>
