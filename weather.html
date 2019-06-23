@@ -1,0 +1,78 @@
+<html>
+
+<head>
+    <title>Login Hotel</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--===============================================================================================-->
+    <link rel="icon" type="image/png" href="images/icons/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="css/page2.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://www.gstatic.com/firebasejs/6.1.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.5.9/firebase.js"></script>
+
+</head>
+
+<body style="background-color:rgb(36, 98, 143);">
+
+		<div class="container" ><img id="pic"  src="images/ANONYMOUS_USER.png" alt="IMG" style="width: 100px; height: 100px; "></div>
+		<br>
+       <div <a href="#" id="logout"  >logout</a></div>
+
+    <center><h1 style="font-family: 'Roboto', sans-serif;">
+
+        Choose your holiday destination</h1></center> 
+    <a class="weatherwidget-io" href="https://forecast7.com/en/40d71n74d01/new-york/" data-label_1="NEW YORK"
+        data-label_2="WEATHER" data-theme="original" >NEW YORK WEATHER</a>
+
+    <a href="#" id="NEW-YORK" class="myButton">NEW YORK</a>
+
+
+
+
+    <a class="weatherwidget-io" href="https://forecast7.com/en/32d0934d78/tel-aviv-yafo/" data-label_1="TEL AVIV"
+        data-label_2="WEATHER" data-theme="original" >TEL AVIV WEATHER</a>
+     <a href="#" id="TEL-AVIV" class="myButton">TEL AVIV</a>
+
+    <a class="weatherwidget-io" href="https://forecast7.com/en/51d51n0d13/london/" data-label_1="LONDON"
+        data-label_2="WEATHER" data-theme="original">LONDON WEATHER</a>
+ <a href="#" id="LONDON" class="myButton">LONDON</a>
+
+    <a class="weatherwidget-io" href="https://forecast7.com/en/56d13n106d35/canada/" data-label_1="CANADA"
+        data-label_2="WEATHER" data-theme="original">CANADA WEATHER</a>
+ <a href="#" id="CANADA" class="myButton">CANADA</a>
+
+    <a class="weatherwidget-io" href="https://forecast7.com/en/34d05n118d24/los-angeles/" data-label_1="LOS ANGELES"
+        data-label_2="WEATHER" data-theme="original">LOS ANGELES WEATHER</a>
+ <a href="#" id="LOS-ANGELES" class="myButton">LOS ANGELES</a>
+
+    <a class="weatherwidget-io" href="https://forecast7.com/en/41d392d17/barcelona/" data-label_1="BARCELONA"
+        data-label_2="WEATHER" data-theme="original">BARCELONA WEATHER</a>
+ <a href="#"  id="BARCELONA" class="myButton">BARCELONA</a>
+
+    <a class="weatherwidget-io" href="https://forecast7.com/en/48d862d35/paris/" data-label_1="PARIS"
+        data-label_2="WEATHER" data-theme="original">PARIS WEATHER</a>
+ <a href="#" id="PARIS" class="myButton">PARIS</a>
+
+    <a class="weatherwidget-io" href="https://forecast7.com/en/52d374d90/amsterdam/" data-label_1="AMSTERDAM"
+        data-label_2="WEATHER" data-theme="original">AMSTERDAM WEATHER</a>
+ <a href="#" id="AMSTERDAM" class="myButton">AMSTERDAM</a>
+
+    <a class="weatherwidget-io" href="https://forecast7.com/en/30d0431d24/cairo/" data-label_1="CAIRO Egypt"
+        data-label_2="WEATHER" data-theme="original">CAIRO Egypt WEATHER</a>
+ <a href="#"  id="CAIRO-Egypt" class="myButton">CAIRO Egypt</a>
+
+    <a class="weatherwidget-io" href="https://forecast7.com/en/22d40114d11/hong-kong/" data-label_1="HONG KONG"
+        data-label_2="WEATHER" data-theme="original">HONG KONG WEATHER</a>
+ <a href="#" id="HONG-KONG" class="myButton">HONG KONG</a>
+
+
+ 
+ <script src="js/jquery-3.4.1.min.js"></script>
+ <script src="js/page2.js"></script>
+    <script>
+        !function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = 'https://weatherwidget.io/js/widget.min.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'weatherwidget-io-js');
+    </script>
+</body>
+
+</html>
